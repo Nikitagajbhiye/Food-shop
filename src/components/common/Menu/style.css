@@ -1,0 +1,32 @@
+main {
+    padding-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    grid-row-gap: 5rem;
+}
+
+
+@media (max-width:935) {
+    menu {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width:735) {
+    menu {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:535) {
+    menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:335) {
+    menu {
+        grid-template-columns: repeat 1fr;
+    }
+}

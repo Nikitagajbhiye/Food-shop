@@ -1,0 +1,29 @@
+.brands {
+    width: 250px;
+    height: 210px;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.brands img {
+    margin-top: 1.5rem;
+    height: 80px;
+    object-fit: contain;
+  }
+
+  .brands h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    flex: 1;
+    padding: 10px;
+  }
+
+  .brands p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }

@@ -1,0 +1,11 @@
+.offer {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.offer img {
+    height: 250px;
+	width: 400px;
+	object-fit: cover;
+}

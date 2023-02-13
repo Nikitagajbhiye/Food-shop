@@ -1,0 +1,35 @@
+footer {
+    border-top: 1px solid #000;
+    margin-top: 3rem;
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    font-weight: 500;
+    max-width: 600px;
+    margin-right: 0.5rem;
+  }
+
+  footer i {
+    border: 0px solid;
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .contact {
+    margin-right: 111px;
+  }
+
+  .contact i {
+    font-size: 12px;
+  }
+  
+  @media (max-width: 576px) {
+    footer p {
+      font-size: 0.8rem;
+    }
+  }
