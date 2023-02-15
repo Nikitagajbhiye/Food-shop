@@ -6,7 +6,7 @@ import OfferList from "./OffersList";
 
     function Offers() {
       return (
-        <div className="list" >
+        <div className="list" id="list" >
          {offerData.map((offer)=>{
            return (
            <OfferList img={offer.img} name={offer.name} info={offer.info} />

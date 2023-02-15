@@ -22,7 +22,7 @@ const navbar= ({handleScrollMenu}) =>{
     <a href='/cart'>Cart</a>
     </li>
     <li>
-    <a href='/offers'>Offers</a>
+    <a href='#list'>Offers</a>
     </li>
     </ul>
   </div>
