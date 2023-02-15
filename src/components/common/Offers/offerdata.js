@@ -7,7 +7,7 @@ export const offerData = [
     },
     {
       id: 2,
-      img: '/images/offer-2.webp',
+      img: '/images/offer-2.gif',
       name: "McDonald's",
       info: 'free peri peri fries with combo of burger and coke',
     },
@@ -28,5 +28,11 @@ export const offerData = [
       img: '/images/offer-5.jpg',
       name: 'Biryani',
       info: 'save upto 25%',
+    },
+    {
+      id: 6,
+      img: '/images/offer-6.jpg',
+      name: 'KFC',
+      info: 'Every wednesday get combo at less price',
     },
   ];

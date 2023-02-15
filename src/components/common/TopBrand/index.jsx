@@ -5,7 +5,7 @@ import { BrandData } from "./branddata";
 
     function TopBrand() {
       return (
-        <div className="list" >
+        <div className="brand-list" >
          {BrandData.map((brand)=>{
            return (
            <BrandItems img={brand.img} name={brand.name} time={brand.time} />

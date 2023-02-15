@@ -1,4 +1,4 @@
-.list {
+.brand-list {
     padding-top: 3.5rem;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
